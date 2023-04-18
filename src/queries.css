@@ -1,0 +1,162 @@
+/* BELOW 1344px (Smaller desktops) */
+
+@media (max-width: 84em) {
+  .container {
+    max-width: 140rem;
+  }
+}
+
+/* BELOW 1200px (Landscape tablets) */
+
+@media (max-width: 75em) {
+  .container {
+    max-width: 130rem;
+  }
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* BELOW 992px (small tablets) */
+
+@media (max-width: 62em) {
+  html {
+    font-size: 50%;
+  }
+  .intro-section {
+    grid-template-columns: 1fr;
+  }
+  .display-img {
+    height: 60rem;
+  }
+
+  .intro-secondary {
+    font-size: 3.2rem;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+    gap: 12.8rem;
+  }
+  .project-title {
+    font-size: 3.2rem;
+    margin-bottom: 4rem;
+  }
+
+  .about_container .about_container_box h2 {
+    top: 11.8rem;
+  }
+}
+
+/* BELOW 768px (Landscape tablets) */
+
+@media (max-width: 48em) {
+  .container {
+    max-width: 100rem;
+  }
+  html {
+    font-size: 43.75%;
+  }
+
+  .logo-text {
+    font-size: 2rem !important;
+  }
+  .tag-open {
+    font-size: 3rem;
+  }
+
+  .tag-close {
+    font-size: 2.6rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .section-heading {
+    font-size: 3rem;
+  }
+  .skill-icon {
+    height: 4rem;
+    width: 4rem;
+  }
+  .about_container .about_container_box h2 {
+    top: 12.2rem;
+  }
+
+  footer .container {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+}
+
+/* BELOW 624px (Small tablets) */
+
+@media (max-width: 39em) {
+  .container {
+    max-width: 90rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    padding: 1rem;
+  }
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .skill-icon {
+    height: 3rem;
+    width: 3rem;
+  }
+  .skill-text {
+    font-size: 1.6rem;
+  }
+
+  .about_container_box {
+    width: 80%;
+    height: fit-content;
+  }
+}
+
+/* Below 432px */
+
+@media (max-width: 27em) {
+  .container {
+    max-width: 60rem;
+  }
+  html {
+    font-size: 37.5%;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding: 3px;
+  }
+
+  .intro-text-box {
+    /* padding: 2.4rem; */
+    gap: 2.4rem;
+    /* align-items: center; */
+  }
+
+  .projects-container {
+    padding: 0 3.2rem;
+  }
+
+  .phone-text:link {
+    font-size: 1.5rem;
+  }
+  .about_container .about_container_box h2 {
+    top: 13.4rem;
+  }
+}
+
+/* Below 280px */
+
+@media (max-width: 16em) {
+  html {
+    font-size: 35.25%;
+  }
+}
