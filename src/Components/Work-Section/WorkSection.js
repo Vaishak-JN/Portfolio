@@ -20,7 +20,7 @@ const WorkSection = () => {
                 <p className='timeline_container_card_details'>
                   <ul>
                     <li>
-                      Mostly worked on developing e-commerce websites using Shopify custom development and building content driven websites using wordpress.
+                      Worked on frontend using tools and technologies like javascript, react and also worked on developing e-commerce websites using Shopify custom development using liquid and building content driven websites using Wordpress.
                     </li>
                   </ul>
                 </p>
